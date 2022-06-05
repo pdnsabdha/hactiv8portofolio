@@ -1,0 +1,52 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.mw-history {
+  max-width: 1.5em;
+}
+
+.mw-identity {
+  max-width: 1.3em;
+}
+
+.mw-teamwork {
+  max-width: 1.5em;
+}
+
+.cc-gold {
+  color: gold;
+}
+
+.scm {
+  max-width: 1em;
+}
+
+team {
+  width: 50px;
+}
+
+#waves {
+  max-width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#uparrow {
+  width: 35px;
+  height: 35px;
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
